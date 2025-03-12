@@ -95,6 +95,6 @@ docker run -p 5000:5000 house-price-api
 
 ![capture_2.png](capture_2.png)
 
-![capture.PNG](capture.PNG)
+![Capture.PNG](Capture.PNG)
 
-![capture_1.PNG](capture_1.PNG)
+![Capture_1.PNG](Capture_1.PNG)
