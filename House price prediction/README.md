@@ -91,13 +91,14 @@ python app.py
  ```
 - Response:
   json
-  ```
-  {
+```
+{
   "predicted_price": 340000
-  }
+ 
+}
+```
 
-
-#### 4.Running with Docker:
+#### 5.Running with Docker:
 
 -  Build the image:
 ```
