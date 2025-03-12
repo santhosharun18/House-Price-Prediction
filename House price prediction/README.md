@@ -11,7 +11,7 @@ Steps Taken:
 - Identified missing values and outliers.
 - Checked data distribution and correlations.
 
-##Handling Missing Values
+## Handling Missing Values
 
 - Categorical missing values → filled with mode (most frequent value).
 - Numerical missing values → filled with mean.
@@ -22,7 +22,7 @@ Steps Taken:
 - "Feature Scaling:" Standardization (mean=0, std=1) for numerical columns.
 - "Feature Selection:" Removed highly correlated features.
 
-##🏆 3. Model Selection & Optimization
+## Model Selection & Optimization
 
 - Train-Test Split: 80% training, 20% testing.
 
@@ -52,7 +52,7 @@ Steps Taken:
 
 ## Deployment Strategy & API Usage Guide
 
-###✅ Deployment Steps
+### Deployment Steps
 
 #### 1. Built Flask API (app.py)
 
@@ -67,7 +67,6 @@ Steps Taken:
 -  Install dependencies:
 ```
  pip install -r requirements.txt
-
 ```
   
 -  Run Flask app:
@@ -83,13 +82,19 @@ python app.py
 -  Build the image:
 ```
 docker build -t house-price-api .
-
 ```
   
 -  Run the container:
  ```
 docker run -p 5000:5000 house-price-api
-
 ```
   
 -  Access API at: http://localhost:5000/predict
+
+## Preview
+
+![capture_2.png](capture_2.png)
+
+![capture.png](capture.png)
+
+![capture_1.png](capture_1.png)
