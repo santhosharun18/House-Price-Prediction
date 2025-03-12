@@ -1,3 +1,6 @@
+House Price Prediction
+
+
 1. Introduction
 This project builds and deploys a machine learning model to predict house prices based on given features. The pipeline includes data preprocessing, model training, evaluation, and deployment using Flask. The API is containerized using Docker for easy deployment.
 
