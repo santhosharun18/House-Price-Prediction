@@ -74,7 +74,27 @@ Steps Taken:
 python app.py
 ```
 
--  Test API using curl or Postman.
+#### 4.Test API using curl or Postman.
+
+##### Testing the API
+-  Using Postman (JSON Request)
+-  POST Endpoint: http://127.0.0.1:5000/predict
+-  Body: Send a JSON payload:
+   json
+  ```
+{
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "floors": 2,
+  "yr_built": 2001
+}
+ ```
+- Response:
+  json
+  ```
+  {
+  "predicted_price": 340000
+  }
 
 
 #### 4.Running with Docker:
